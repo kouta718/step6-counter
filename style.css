@@ -1,0 +1,32 @@
+body {
+    background-color: #333;
+    color: #ddd;
+}
+
+.counter {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #999;
+}
+
+.counter-number {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 0;
+    background-color: #111;
+    color: #ddd;
+    font-weight: bold;
+    cursor: pointerl;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.button:hover {
+    opacity: 0.8;
+    transition: opacity .25s;
+}
