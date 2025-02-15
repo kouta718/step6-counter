@@ -9,14 +9,22 @@
     <link rel="stylesheet" href="sanitize.css"> <!-- sanitizeCSSファイル -->
     <link rel="stylesheet" href="style.css"> <!-- 外部CSSファイル -->
     <script src="counter.js" defer></script>
+    <script src="any.js" defer></script>
     <script src="reset.js" defer></script>
 </head>
 <body>
+    <div class="errorMsg" id="errorMsg"></div>
     <div class="counter">
         <div class="counter-number" id="js-counter">0</div>
+        <button type="button" class="button js-button">-10</button>
         <button type="button" class="button js-button">-</button>
         <button type="button" class="button js-button">+</button>
-        <button type="button" class="button" id="js-reset-button">reset</button>
+        <button type="button" class="button js-button">+10</button>
+        <button type="button" class="button" id="js-reset-button">reset</button><br>
+        <label for="js-any-number">任意値の加減</label>
+        <input type="number" id="js-any-number" class="any-number">
+        <button type="button" class="button js-any-button">+</button>
+        <button type="button" class="button js-any-button">-</button><br>
     </div>
 </body>
 </html>
